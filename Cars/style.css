@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tc{
+    color:white;
+    font-size: 1.25rem;
+}
+.active{
+    color: red;
+}
+.ob{
+    object-fit: cover;
+}
+.tcc{
+    color:white;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(230 37 37);
+    font-size: 1.25rem;
+}
+.tc:hover{
+    color:red;
+}
+.ho{
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in;
+}
+.carousel-item{
+    height: 96.5vh;
+}
+.ho:hover{
+    transform: scale(1.1);
+}
+.m{
+    margin-top: 3rem;
+    background: linear-gradient(323deg, rgb(144, 144, 222),white,rgb(237, 165, 165), transparent);
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.bc{
+    background-image: url("test-drive.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-position: center;
+}
+.container-flui{
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+}
+.container-fluit{
+    height:300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:rgb(48, 48, 48);
+}
+.fot{
+    color:white;
+    list-style: none;
+}
+.cto{
+    text-decoration: none;
+    color: white;
+}
+.vb{
+    height:7px;
+    background: linear-gradient(87deg,red,white,blue,transparent);
+}
+.vbc{
+    height:30px;
+    background-color: black;
+}
+.nm{
+    background: linear-gradient(380deg, rgb(239, 161, 161),rgb(253, 253, 254), rgb(139, 139, 222),transparent);
+    padding: 1rem;
+}
+.carousel-fade .carousel-item {
+    opacity: 0;
+    transition-property: opacity;
+    transform: none;
+}
+@media(max-width:480px)
+{
+    .carousel-fade .carousel-item 
+    {
+        opacity: 0;
+        transition-property: opacity;
+        transform: none;
+        height:100%;
+
+    }    
+    .bc{
+        background-image: url("test-drive.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-position: center;
+        flex-basis: 300px;
+    }
+    .fg{
+        text-align: center;
+        font-weight: 600;
+    }
+    .fgg{
+        text-align: center;
+    }
+}
+@media(min-width:481px) and (max-width:767px)
+{
+    .carousel-fade .carousel-item 
+    {
+        opacity: 0;
+        transition-property: opacity;
+        transform: none;
+        height:100%;
+
+    }    
+    .bc{
+        background-image: url("test-drive.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-position: center;
+        flex-basis: 300px;
+    }
+    .fg{
+        text-align: center;
+        font-weight: 600;
+    }
+    .fgg{
+        text-align: center;
+    }
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    .carousel-fade .carousel-item 
+    {
+        opacity: 0;
+        transition-property: opacity;
+        transform: none;
+        height:100%;
+
+    }    
+}
